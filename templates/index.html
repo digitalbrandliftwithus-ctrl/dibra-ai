@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIBRA AI - Video Generator</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">DIBRA<span> AI</span></div>
+    <span class="status">● AI CREATIVE STUDIO</span>
+</header>
+
+<main>
+    <section class="hero">
+        <p class="tag">YOUR AI VIDEO STUDIO</p>
+        <h1>Imagine it.<br><span>Create it.</span></h1>
+        <p class="intro">
+            Transform your ideas into amazing videos.
+        </p>
+    </section>
+
+    <section class="generator">
+        <h2>Create your video</h2>
+
+        <label for="prompt">Describe your video</label>
+        <textarea id="prompt"
+        placeholder="A cinematic sunset over a beautiful African landscape..."></textarea>
+
+        <label for="image">Upload an image (optional)</label>
+        <input type="file" id="image" accept="image/*">
+
+        <label for="style">Video style</label>
+        <select id="style">
+            <option>Cinematic</option>
+            <option>Realistic</option>
+            <option>Anime</option>
+            <option>3D Animation</option>
+            <option>Documentary</option>
+        </select>
+
+        <button id="generate">Generate Video</button>
+
+        <div id="result">
+            Your video preview will appear here.
+        </div>
+    </section>
+</main>
+
+<footer>
+    DIBRA AI © 2026 | Create without limits.
+</footer>
+
+<script src="/static/script.js"></script>
+</body>
+</html>
